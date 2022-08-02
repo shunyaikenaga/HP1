@@ -105,9 +105,54 @@
   opacity: 0.5;
 }
 
+.letter {
+  width: 980px;
+  margin: 0 auto 150px;
+  padding: 0 20px;
+}
 
+.letter_inner {
+  border: 3px dotted #111;
+  padding: 50px;
+}
 
+.letter_inner h1 {
+  background-color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+  position: relative;
+  bottom: 90px;
+  width: 40%;
+  margin: 0 auto 50px;
+  padding: 0 50px;
+  letter-spacing: 5px;
+}
 
+.letter_list h2 {
+  font-size: 50px;
+  line-height: 1;
+  margin-bottom: 50px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.letter_list h2 small {
+  font-size: 15px;
+  color: rgb(189, 120, 230);
+  text-align: center;
+  }
+
+  .letter_item p {
+    letter-spacing: 3px;
+    line-height: 3;
+    margin-bottom: 50px;
+  }
+  
+  .letter_item p img {
+    width: 100%;
+    height: auto;
+  }
 
 
 
